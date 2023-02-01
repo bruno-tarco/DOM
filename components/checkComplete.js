@@ -7,9 +7,11 @@ const checkComplete = () => {
 // Immediately invoked function expression IIFE
 const completeTask = (event) => {
   const element = event.target;
-  element.classList.toggle('fas');
-  element.classList.toggle('completeIcon');
-  element.classList.toggle('far');
+  element.classList.toggle('fa-thin');
+  element.classList.toggle('fa-square');
+
 };
 
 export default checkComplete;
+
+
